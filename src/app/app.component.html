@@ -1,2 +1,3 @@
 <h1>NgRx Component Example</h1>
-<p>Counter: {{ count$ | ngrxPush }}</p>
+<p *ngrxLet="count$">Counter: {{ count$ | ngrxPush }}</p>
+<p *ngrxLet="countOnesPlace$ as onesPlace">Counter: {{ onesPlace }}</p>

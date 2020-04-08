@@ -2,12 +2,13 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import { PushPipe } from '@ngrx/component';
+import { PushPipe, LetDirective } from '@ngrx/component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    PushPipe
+    PushPipe,
+    LetDirective
   ],
   imports: [
     BrowserModule
