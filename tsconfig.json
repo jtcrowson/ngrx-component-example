@@ -14,7 +14,10 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "@ngrx/component": ["./src/component-builds"]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
